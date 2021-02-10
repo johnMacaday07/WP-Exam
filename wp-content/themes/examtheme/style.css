@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/*
+Theme Name: WP Exam Theme
+Text Domain: WP Exam
+Version: 1.0
+Author: John Macaday
+
+*/
+
+button{
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
+
+#header{
+    background-color: #87509c;
+}
+
+#header-btn{
+    background-color: #eb7d4b;
+    border: none;
+    border-bottom: 3px solid #c86a40;
+    border-radius: 7px;
+}
+
+.text-head{
+    margin: 0;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.text-head:after {
+    content: "";
+    display: block;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.45em;
+    width: 88px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+#services{
+    background-color: #17c2a4;
+    color: #fff;
+}
+
+#services h3{
+    text-transform: uppercase;
+}
+
+#services img{
+    height: 130px;
+}
+
+#team{
+    background-color: #e7f1f8;
+    color: #3c4761 !important;
+}
+
+#team .position{
+    color: #30bae7;
+}
+
+.socials{
+    font-size: 25px;
+}
+
+.circle-div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #878787;
+}
+
+#portfolio{
+    background-color: #ffdd99;
+    color: #393939;
+}
+
+#footer{
+    background-color: #3c5499;
+}
+
+.footer-form{
+    background-color: #273a71;
+}
+.footer-form:focus{
+    background-color: #273a71;
+    color: #fff;
+}
+.footer-form::placeholder{
+    color: #fff;
+}
+
+.footer-form::placeholder:after{
+    content: " *";
+    color: red;
+}
+
+#form-submit{
+    padding: 18px 3em;
+    border: none;
+    border-bottom: 4px solid #299ec5;
+    color: #FFF;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background: #30bae7;
+}
+
+#footer-links{
+    background-color: #344b8e;
+    color: white !important;
+}
+#footer-links a{
+    color: white !important;
+}
+
+#footer-links a:hover {
+    color: #30bae7 !important;
+}
